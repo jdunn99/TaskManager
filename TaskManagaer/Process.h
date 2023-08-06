@@ -4,8 +4,7 @@
 
 struct Process {
 	DWORD process_id;
-	std::string name;
+	std::wstring name;
 	double cpu_usage;
 	double memory_usage;
 };
-
