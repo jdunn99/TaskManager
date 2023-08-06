@@ -3,8 +3,8 @@
 #include <windows.h>
 
 struct Process {
-	DWORD process_id;
+	DWORD processId;
 	std::wstring name;
-	double cpu_usage;
-	double memory_usage;
+	double cpuUsage;
+	double memoryUsage;
 };
